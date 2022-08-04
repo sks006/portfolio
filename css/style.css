@@ -1,0 +1,40 @@
+/*add font to css*/
+
+@import url(./font.css);
+@import url(./partial/variable.css);
+
+/* start navition */
+
+.navbar-brand {
+    padding: 0px 10rem 0px 3rem;
+}
+
+.dropdown-item {
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 21px 9px 13px 42px;
+    color: var(--titel-color);
+}
+
+.dropdown-item-1 {
+    background: var( --gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-chip: text;
+    font-family: var(--roboto);
+}
+
+.nav-list :hover {
+    background: var( --gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-chip: text;
+    font-family: "roboto";
+}
+
+.nav-lis-active {
+    align-self: center;
+}
+
+
+/* end navition */
